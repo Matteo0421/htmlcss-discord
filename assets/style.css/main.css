@@ -31,6 +31,16 @@ button{
   padding: 8px 15px;
 }
 
+.btn-nero{
+  color: white;
+  background-color: black;
+}
+
+.btn-blu{
+  color: white;
+  background-color: #8FA1E1;
+  margin-top: 20px     ;
+}
 
 /* HEADER */
 header{
@@ -105,10 +115,6 @@ header{
   margin-top: 10px;
 }
 
-.btn-nero{
-  color: white;
-  background-color: black;
-}
 
 .big-photo{
   width: 60%;
@@ -141,14 +147,12 @@ header{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 1000px;
+  padding: 100px;
 }
 .final-text,
 .final-img,
 .final-btn{
   width: 80%;
-  background-color: mediumslateblue;
-  border: 2px solid black;
 }
 
 .title-final-text h2,
@@ -163,11 +167,28 @@ header{
 }
 
 .final-img{
-  height: 400px;
+  display: flex;
+  justify-content: center;
 }
+
 .final-btn{
-  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.final-btn div h3{
+  background-image: url(../img/stars.svg);
+  background-size: cover;
+}
+/* 
+.final-btn div button{
+  text-align: center;
+} */
+
+
+
+
 /* /main */
 
 /* FOOTER */
