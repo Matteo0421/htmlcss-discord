@@ -8,6 +8,10 @@ svg path {
   fill:#F6F6F6;
 }
 
+.svg-white svg path{
+  fill:white
+}
+
 svg{
   display: block;
 }
