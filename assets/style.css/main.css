@@ -3,15 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+img{
+  display: block;
+}
+
 .container{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-img{
-  max-width: 100%;
-}
 
 .middle-page{
   display: flex;
@@ -97,17 +99,18 @@ header{
   width: 50%;
 }
 
-.titolo, .initial-p{
+.title, .initial-p{
   color: white;
   text-align: center;
 }
-.titolo{
-  font-size: 1.5rem;
-  padding: 40px;
+.title{
+  font-size: 2rem;
+  padding: 20px;
 }
 
 .initial-p{
   font-size: .9rem;
+  padding-top: 40px;
 }
 
 .initial-btn{
@@ -125,9 +128,6 @@ header{
 
 .little-text{
   width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .little-text h2{
@@ -172,14 +172,17 @@ header{
 }
 
 .final-btn{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-.final-btn div h3{
+.final-btn h3{
   background-image: url(../img/stars.svg);
-  background-size: cover;
+  background-size: contain;
+  display: inline-block;
+  background-repeat: no-repeat;
+  padding: 20px 35px 0;
 }
 /* 
 .final-btn div button{
@@ -196,32 +199,67 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 700px;
-  background-color: black;
+  background-color: #212527;
 }
 
 .final-container{
   display: flex;
-  height: 500px;
   width: 80%;
-  background-color: brown;
 }
 
 .social-network{
+  display: flex;
+  justify-content: center;
   width: 35%;
-  height: 500px;
-  background-color: salmon;
+}
+  
+
+.social-network div h3{
+  color: #55649A;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.italy-fleg{
+  display: inline-block;
+  height: 10px;
+}
+
+.italy-menu,
+.logo-social div{
+  color: white;
+  padding-top: 10px;
+}
+.logo-social{
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .final-list{
   width: 16.25%;
-  height: 500px;
-  background-color: teal;
+  padding: 100px;
 }
 
 .final-list ul{
   list-style: none;
+  color: white;
 }
+
+.social-network div{
+  padding: 100px;
+}
+
+.final-list ul li{
+  padding: 15px;
+}
+
+
+.first-li{
+  color: #55649A;
+}
+
+
 .footer-page{
   display: flex;
   justify-content: center;
