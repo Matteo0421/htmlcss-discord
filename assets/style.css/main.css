@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: bisque;
+  
+}
+
+
+.middle-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+
+}
+
+
+/* HEADER */
+header{
+  background-color: aquamarine;
+  padding: 20px 0;
+}
+.header-container{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.logo, .btn{
+ border: 2px solid black;
+ width: 20%;
+ background-color: orange;
+}
+
+.btn{
+  text-align: right;
+}
+
+.logo span{
+  text-align: left;
+  
+}
+
+.lista-header{
+  background-color: orange;
+  width: 60%;
+  border: 2px solid black;
+}
+
+.lista-header ul{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+.jumboscreen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  height: 700px;
+}
+.titolo{
+  width: 50%;
+  height: 350px;
+  background-color: pink;
+}
+
+
+
+
+.foto-grande{
+  width: 60%;
+  height: 500px;
+  background-color: burlywood;
+}
+
+.little-text{
+  width: 40%;
+  height: 500px;
+  background-color: blueviolet;
+}
+
+.container-gray{
+  
+  background-color: grey;
+}
+
+.large-part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 1000px;
+  background-color: gold;
+}
+.final-text,
+.final-img,
+.final-btn{
+  width: 80%;
+  background-color: mediumslateblue;
+  border: 2px solid black;
+}
+
+.final-text{
+  height: 80px;
+}
+
+.final-img{
+  height: 400px;
+}
+.final-btn{
+  height: 80px;
+}
+/* /main */
+
+/* FOOTER */
+.final-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: black;
+}
+
+.final-container{
+  display: flex;
+  height: 500px;
+  width: 80%;
+  background-color: brown;
+}
+
+.social-network{
+  width: 35%;
+  height: 500px;
+  background-color: salmon;
+}
+
+.final-list{
+  width: 16.25%;
+  height: 500px;
+  background-color: teal;
+}
+
+.final-list ul{
+  list-style: none;
+}
+.footer-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+.footer-btn{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid white ;
+  width: 80%;
+  background-color: orchid;
+}
+
