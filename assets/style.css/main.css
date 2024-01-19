@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+svg path {
+  fill:#F6F6F6;
+  display: block;
+}
+
 img{
   display: block;
 }
@@ -205,6 +210,7 @@ align-items: center;
 .final-container{
   display: flex;
   width: 80%;
+  padding: 100px 0;
 }
 
 .social-network{
@@ -226,28 +232,24 @@ align-items: center;
 }
 
 .italy-menu,
-.logo-social div{
+.logo-social {
   color: white;
   padding-top: 10px;
 }
-.logo-social{
-  display: flex;
-  justify-content: space-between;
 
+.logo-social a{
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
 }
 
 .final-list{
   width: 16.25%;
-  padding: 100px;
 }
 
 .final-list ul{
   list-style: none;
   color: white;
-}
-
-.social-network div{
-  padding: 100px;
 }
 
 .final-list ul li{
