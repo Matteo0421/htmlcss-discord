@@ -16,6 +16,10 @@ svg path {
   fill:white
 }
 
+.wawe-down svg{
+  rotate: 180deg;
+}
+
 svg{
   display: block;
 }
