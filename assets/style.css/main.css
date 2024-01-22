@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 svg path {
   fill:#F6F6F6;
 }
@@ -44,6 +48,11 @@ button{
   text-align: center;
   padding: 8px 15px;
 }
+
+button:hover{
+  opacity: 0.8;
+}
+
 
 .btn-nero{
   color: white;
@@ -105,6 +114,7 @@ header{
   padding: 100px;
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-position: center;
 }
 .hight-page{
   width: 50%;
